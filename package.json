@@ -1,0 +1,29 @@
+{
+  "name": "electron-one",
+  "version": "0.0.1",
+  "description": "developing with Electron",
+  "main": "app.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "source env-dev.sh && npm run build && electron bin/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaseyErbes/electron-one.git"
+  },
+  "author": "Casey Erbes",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/CaseyErbes/electron-one/issues"
+  },
+  "homepage": "https://github.com/CaseyErbes/electron-one#readme",
+  "devDependencies": {
+    "electron-builder": "^22.7.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "electron": "^9.1.0",
+    "typescript": "^3.9.7"
+  }
+}
