@@ -11,10 +11,10 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  const indexDir = process.env.ROOT_DIR + 'lib/html/index.html';
+  const indexDir = process.env.ROOT_DIR + 'pkg/index/index.html';
   win.loadFile(indexDir);
 
-  // Open the DevTools.
+  // Open the DevTools
   // win.webContents.openDevTools()
 }
 

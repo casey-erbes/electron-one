@@ -1,0 +1,13 @@
+html {
+  cursor: default;
+  user-select: none;
+}
+
+#start {
+  cursor: pointer;
+  width: fit-content;
+}
+
+#start-text {
+  font-size: 14px;
+}
